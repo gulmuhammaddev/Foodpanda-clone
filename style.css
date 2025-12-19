@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'roboto', Courier, monospace;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-links ul li a:hover{
+    color: #ff2b85;
+}
+.nav-btn button{
+    padding: 10px 20px;
+    background-color:#ff2b85;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    background-color: #ff2b85;
+}
+.hero-section{
+    background-image: url(./assects/2.png);
+    height: 80vh;
+    background-size: cover;
+}
+.hero-text{
+    padding-top: 150px;
+    padding-left: 100px;
+    color: white;
+    font-size: xx-large;
+    font-family: 'roboto', Courier, monospace;
+}
+.hero-bottom{
+    padding: 100px;
+}
+.bottom-para{
+    font-size: xx-large;
+    color: rgb(68, 66, 66);
+    font-family: 'poppins', Courier, monospace;
+}
+.bottom-para p{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'poppins', Courier, monospace;
+}
+.hero-half{
+    padding: 100px;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.half-1 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+.half-2{
+    margin-top: 50px;
+}
+.half-2 h2{
+    font-size: xx-large;
+    color: rgb(68, 66, 66);
+    font-family: 'roboto', Courier, monospace;
+
+}
+.half-2 p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(102, 100, 100);
+    line-height: 1.5;
+    font-family: 'poppins', Courier, monospace;
+}
+.half-2 button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff2b85;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'roboto', Courier, monospace;
+}
+.half-2 button:hover{
+    background-color: #ff2b85;
+}
+.footer{
+    background-color: #f2f2f2;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins', Courier, monospace;
+}
+.footer-logo img{
+    width: 150px;
+    height: auto;
+
+}
+.footer-links{
+    display: flex;
+    gap: 100px;
+}
+.footer-links ul{
+    list-style: none;
+}
+.footer-links ul li{
+    margin-bottom: 10px;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+}
+.footer-links ul li a:hover{
+    color: #ff2b85;
+}
