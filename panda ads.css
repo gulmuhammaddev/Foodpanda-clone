@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'roboto', Courier, monospace;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-links ul li a:hover{
+    color: #ff2b85;
+}
+.nav-btn button{
+    padding: 10px 20px;
+    background-color:#ff2b85;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    background-color: #ff2b85;
+}
+.hero-section{
+    background-image: url(./assects/21.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+
+}
+.hero-text{
+    padding: 150px 20px;
+    color: white;
+    font-family: 'roboto', Courier, monospace;
+}
+.hero-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.hero-text p{
+    font-size: 20px;
+}
+.btn{
+    padding-top: 30px;
+    padding: 10px 20px;
+    background-color:#ff2b85;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
