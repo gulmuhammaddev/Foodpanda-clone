@@ -84,7 +84,6 @@
 .half-1 img{
     width: 500px;
     height: 300px;
-    border-radius: 10px;
 }
 .half-2{
     margin-top: 50px;
@@ -108,7 +107,7 @@
     background-color: #ff2b85;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-family: 'roboto', Courier, monospace;
 }
@@ -139,7 +138,6 @@
 .card-1{
     width: 300px;
     height: 350px;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     font-family: 'poppins', Courier, monospace;
@@ -200,9 +198,7 @@
 .footer-copy p{
     color: white;
 }
-/* =========================
-   FIX HOVER TYPO
-========================= */
+
 .background-clip:hover{
     transform: scale(1.05);
     transition: transform 0.5s ease;
@@ -266,12 +262,10 @@
     .nav-links{
         width: 100%;
         justify-content: center;
-        display: block;
     }
 
     .nav-links ul{
         display: flex;
-        display: none;
         gap: 10px;
     }
 
@@ -364,7 +358,6 @@
     }
     .nav-links ul{
         gap: 8px;
-        display: none;
     }
 
     .hero-text{
